@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+
+  <script>
+    const playStoreUrl =
+      "https://play.google.com/store/apps/details?id=com.example.animation_and_deep_link_demo";
+
+    // Optional: keep original path for analytics
+    const attemptedPath = window.location.pathname;
+
+    console.log("Unknown path:", attemptedPath);
+
+    setTimeout(() => {
+      window.location.replace(playStoreUrl);
+    }, 300);
+  </script>
+</head>
+<body>
+  <p>Redirecting to Play Store…</p>
+</body>
+</html>
