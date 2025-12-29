@@ -1,12 +1,1 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.example.animation_and_deep_link_demo",
-      "sha256_cert_fingerprints": [
-        "EB:84:8E:64:F1:03:5B:93:2A:61:85:8A:9B:0E:6C:A4:15:2F:BB:02:37:E5:C8:98:F8:75:9E:8D:E7:CD:35:14"
-      ]
-    }
-  }
-]
+<meta http-equiv="refresh" content="0; url=/deep_link/well-known/assetlinks.json">
